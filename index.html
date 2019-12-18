@@ -21,11 +21,17 @@
         <hr>
 
         <div id=box>
-           Your secure password...
-        </div>        
+            <p>Your secure password...</p>
+            <form name="myform" method="post" action="">
+                <input type="hidden" id="securepwd" value="8"/>
+                </form>          
+           
+        </div>     
+        
+        <hr>
 
         <div id=buttons>
-            <button id=password type=button>
+            <button id=password type=button onClick="generate()" tabindex="2">
                 Generate Password
                 </button>
             
