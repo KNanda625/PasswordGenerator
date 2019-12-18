@@ -41,17 +41,31 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    padding-top: 7%;
+    padding-top: 5%;
     border: 1px dashed darkgray;
+}
+
+p {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+#securepwd {
+    height: 80px;
+    width: 450px;
+}
+
+
+hr {
+    border: 1px solid #202020;
+}
+
 #buttons {
-    width: 500px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
+    width: 700px;
+    height: 70px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;    
 }
 
 #password {
@@ -61,6 +75,7 @@ hr {
     border-radius: 20px;
     padding: 14px 40px;
     font-size: 20px;
+    float: left;
 }
 
 #copy {
@@ -70,4 +85,5 @@ hr {
     border-radius: 20px;
     padding: 14px 40px;
     font-size: 20px;
+    float: right;
 }
