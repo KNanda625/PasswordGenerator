@@ -2,6 +2,7 @@
 Assignment 3
 
 This password generator has been created with JavaScript to provide the user with a random password to protect sensitive data.
+
 https://knanda625.github.io/PasswordGenerator/
 
 
